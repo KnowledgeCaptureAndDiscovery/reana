@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   reana:
   - apiVersion: v2
-    created: "2022-12-16T09:58:35.265583249-03:00"
+    created: "2022-12-16T10:27:23.285924614-03:00"
     dependencies:
     - condition: traefik.enabled
       name: traefik
@@ -11,7 +11,7 @@ entries:
       - ingress
       version: 10.3.4
     description: REANA reproducible research data analysis platform
-    digest: 3fb500dc111ff8cb9fb4f3329aec01221bb45c1cdbadbf9690e186767fc78e2a
+    digest: 06d0324b8ef94316505d0f7b9aaeb47b2c4d1ee5babd0ca9d9d7c94256404bee
     home: www.reana.io
     icon: http://www.reana.io/static/img/logo-reana.svg
     keywords:
@@ -42,4 +42,4 @@ entries:
     urls:
     - https://knowledgecaptureanddiscovery.github.io/reana/charts/reana-0.9.0-alpha.8.tgz
     version: 0.9.0-alpha.8
-generated: "2022-12-16T09:58:35.262551981-03:00"
+generated: "2022-12-16T10:27:23.279173285-03:00"
