@@ -70,7 +70,7 @@ target/
 *.iml
 
 # Helm Chart dependencies and lockfiles
-**/charts/*.tgz
+#**/charts/*.tgz
 helm/reana/Chart.lock
 
 # Helm releases

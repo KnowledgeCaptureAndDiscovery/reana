@@ -8,6 +8,9 @@ metadata:
     {{- toYaml . | nindent 4 }}
   {{- end }}
 spec:
+  {{ - if .Values.ingress.ingressClassName }}
+  ingressClassName: {{ .Values.ingress.className }}
+  {{ - end }}
   {{- with .Values.ingress.tls }}
   {{- if and .self_signed_cert .secret_name }}
     {{- fail "Cannot set `ingress.tls.secret_name` and `ingress.tls.self_signed_cert` at the same time" }}
