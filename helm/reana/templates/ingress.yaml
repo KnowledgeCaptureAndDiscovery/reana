@@ -22,6 +22,10 @@ spec:
   {{- if .secret_name }}
   tls:
     - secretName: {{ .secret_name | quote }}
+    - hosts:
+        {{- range .hosts }}
+        - {{ . | quote }}
+        {{- end }}
   {{- end }}
   {{- end }}
   rules:

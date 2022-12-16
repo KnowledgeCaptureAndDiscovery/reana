@@ -2,7 +2,41 @@ apiVersion: v1
 entries:
   reana:
   - apiVersion: v2
-    created: "2022-12-16T11:18:40.207152646-03:00"
+    created: "2022-12-16T11:27:37.27520398-03:00"
+    description: REANA reproducible research data analysis platform
+    digest: 1f575fbee256f83da6035623be8ac142a9dd691fb0c1cd6c81ac2f56a8bdc76b
+    home: www.reana.io
+    icon: http://www.reana.io/static/img/logo-reana.svg
+    keywords:
+    - research-data
+    - reproducible-analyses
+    - reproducible-workflows
+    - kubernetes
+    - containers
+    - cwl
+    - reusable-science
+    kubeVersion: '>= 1.19.0-0 < 1.26.0-0'
+    name: reana
+    sources:
+    - https://github.com/reanahub/reana
+    - https://github.com/reanahub/reana-client
+    - https://github.com/reanahub/reana-server
+    - https://github.com/reanahub/reana-workflow-controller
+    - https://github.com/reanahub/reana-workflow-engine-cwl
+    - https://github.com/reanahub/reana-workflow-engine-serial
+    - https://github.com/reanahub/reana-workflow-engine-yadage
+    - https://github.com/reanahub/reana-workflow-engine-snakemake
+    - https://github.com/reanahub/reana-job-controller
+    - https://github.com/reanahub/reana-commons
+    - https://github.com/reanahub/reana-db
+    - https://github.com/reanahub/pytest-reana
+    - https://github.com/reanahub/www.reana.io
+    type: application
+    urls:
+    - https://knowledgecaptureanddiscovery.github.io/reana/charts/reana-0.9.0-alpha.13.tgz
+    version: 0.9.0-alpha.13
+  - apiVersion: v2
+    created: "2022-12-16T11:27:37.271693517-03:00"
     description: REANA reproducible research data analysis platform
     digest: 866e0551cbdc06823d2c04053ed868d7a070b40e43327fb7c8a1bc27802dde4d
     home: www.reana.io
@@ -36,7 +70,7 @@ entries:
     - https://knowledgecaptureanddiscovery.github.io/reana/charts/reana-0.9.0-alpha.12.tgz
     version: 0.9.0-alpha.12
   - apiVersion: v2
-    created: "2022-12-16T11:18:40.204042767-03:00"
+    created: "2022-12-16T11:27:37.262010505-03:00"
     description: REANA reproducible research data analysis platform
     digest: 3467838578e15da715921e95941649ddee14a951d772082299630a3971cc322a
     home: www.reana.io
@@ -70,7 +104,7 @@ entries:
     - https://knowledgecaptureanddiscovery.github.io/reana/charts/reana-0.9.0-alpha.11.tgz
     version: 0.9.0-alpha.11
   - apiVersion: v2
-    created: "2022-12-16T11:18:40.201011288-03:00"
+    created: "2022-12-16T11:27:37.257977486-03:00"
     dependencies:
     - condition: traefik.enabled
       name: traefik
@@ -111,7 +145,7 @@ entries:
     - https://knowledgecaptureanddiscovery.github.io/reana/charts/reana-0.9.0-alpha.10.tgz
     version: 0.9.0-alpha.10
   - apiVersion: v2
-    created: "2022-12-16T11:18:40.213946025-03:00"
+    created: "2022-12-16T11:27:37.280418112-03:00"
     dependencies:
     - condition: traefik.enabled
       name: traefik
@@ -152,7 +186,7 @@ entries:
     - https://knowledgecaptureanddiscovery.github.io/reana/charts/reana-0.9.0-alpha.9.tgz
     version: 0.9.0-alpha.9
   - apiVersion: v2
-    created: "2022-12-16T11:18:40.210914485-03:00"
+    created: "2022-12-16T11:27:37.277736185-03:00"
     dependencies:
     - condition: traefik.enabled
       name: traefik
@@ -192,4 +226,4 @@ entries:
     urls:
     - https://knowledgecaptureanddiscovery.github.io/reana/charts/reana-0.9.0-alpha.8.tgz
     version: 0.9.0-alpha.8
-generated: "2022-12-16T11:18:40.196470707-03:00"
+generated: "2022-12-16T11:27:37.252460224-03:00"

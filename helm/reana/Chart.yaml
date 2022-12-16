@@ -27,5 +27,5 @@ keywords:
   - reusable-science
 type: application
 # Chart version.
-version: 0.9.0-alpha.12
+version: 0.9.0-alpha.13
 kubeVersion: ">= 1.19.0-0 < 1.26.0-0"
