@@ -27,12 +27,5 @@ keywords:
   - reusable-science
 type: application
 # Chart version.
-version: 0.9.0-alpha.10
+version: 0.9.0-alpha.11
 kubeVersion: ">= 1.19.0-0 < 1.26.0-0"
-dependencies:
-  - name: traefik
-    version: 10.3.4
-    repository: https://helm.traefik.io/traefik
-    condition: traefik.enabled
-    tags:
-      - ingress
